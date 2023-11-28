@@ -10,17 +10,17 @@
 engine_control(int pin, int engine_id, int mode, int speed);
 ```
 
-`pin → Int`
+#### `pin → Int`
 `ⓘ required`
 
 DC Motor Input Pin
 
-`engine_id → Int`
+#### `engine_id → Int`
 `ⓘ required`
 
 DC Motor Pin
 
-`mode → Int`
+#### `mode → Int`
 `ⓘ required`
 
 `Values`
@@ -28,7 +28,7 @@ DC Motor Pin
 - `0` Disables the Engine
 - `1` Enables the Engine
 
-`speed → Int`
+#### `speed → Int`
 `ⓘ optional`
 
 `Min. Value`
