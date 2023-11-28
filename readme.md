@@ -13,4 +13,11 @@ engine_control(int pin, int engine_id, int mode, int speed);
 `pin → Int`
 `ⓘ required`
 
-Input Pin for a engine
+`engine_id → Int`
+`ⓘ required`
+
+`mode → Int`
+`ⓘ required`
+
+`speed → Int`
+`ⓘ optional`
