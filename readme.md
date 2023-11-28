@@ -4,7 +4,7 @@
 
 ## Get Started
 
-[Open the Wiki](https://github.com/Arduino-Library-Collection/Engine-Control/wiki)
+[![](https://img.shields.io/badge/Visit_the-Wiki-2ea44f?logo=github)](https://github.com/Arduino-Library-Collection/Engine-Control/wiki)
 
 ### Functions and Variables
 
