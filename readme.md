@@ -4,6 +4,8 @@
 
 ## Get Started
 
+[Open the Wiki](https://github.com/Arduino-Library-Collection/Engine-Control/wiki)
+
 ### Functions and Variables
 
 ```ino
