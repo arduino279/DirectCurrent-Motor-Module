@@ -13,11 +13,30 @@ engine_control(int pin, int engine_id, int mode, int speed);
 `pin → Int`
 `ⓘ required`
 
+DC Motor Input Pin
+
 `engine_id → Int`
 `ⓘ required`
+
+DC Motor Pin
 
 `mode → Int`
 `ⓘ required`
 
+`Values`
+
+- `0` Disables the Engine
+- `1` Enables the Engine
+
 `speed → Int`
 `ⓘ optional`
+
+`Min. Value`
+
+- `0`
+
+`Max. Value`
+
+- `240`
+
+Speed of the rotation
