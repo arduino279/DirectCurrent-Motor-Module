@@ -1,0 +1,11 @@
+cc_library(
+    name = "DC Motor Engine Control",
+    srcs = [
+        "autonomous_vehicle/libraries/engine_control/engine_control.h",
+        "autonomous_vehicle/libraries/engine_control/engine_control.h",
+    ],
+    includes = [
+        "autonomous_vehicle/libraries/engine_control",
+    ],
+    visibility = ["//visibility:public"],
+)
