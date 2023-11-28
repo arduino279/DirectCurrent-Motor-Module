@@ -9,3 +9,8 @@
 ```ino
 engine_control(int pin, int engine_id, int mode, int speed);
 ```
+
+`pin → Int`
+`ⓘ required`
+
+Input Pin for a engine
