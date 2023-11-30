@@ -1,1 +1,3 @@
-engine_control KEYWORD2
+dc_control KEYWORD2
+moveServo KEYWORD2
+attachServo KEYWORD2
