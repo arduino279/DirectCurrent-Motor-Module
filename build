@@ -3,7 +3,8 @@ cc_library(
     srcs = [
         "src/engine_control.h",
         "src/engine_control_component.h",
-        "src/servo_controller.h"
+        "src/servo_component.h",
+        "src/dc_component.h"
     ],
     includes = [
         "src",
