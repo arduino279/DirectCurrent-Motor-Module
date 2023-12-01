@@ -2,10 +2,10 @@
 
 Servo servo;
 
-void attachServo(servo, int pin) {
+void attachServo(int pin) {
   servo.attach(pin);
 }
 
-void moveServo(servo, int angle) {
+void moveServo(int angle) {
   servo.write(angle);
 }
