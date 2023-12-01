@@ -19,3 +19,10 @@ void Input1(int mode, int speed) {
     analogWrite(attachedEngine, speed);
   }
 }
+
+void Input2(int mode, int speed) {
+  digitalWrite(attachedInput2, mode);
+  if(speed != "") {
+    analogWrite(attachedEngine, speed);
+  }
+}
