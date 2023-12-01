@@ -9,9 +9,13 @@ void attachInput2(int pin) {
   attachedInput2 = pin;
 }
 
+void attachEngine(int pin) {
+  attachedEngine = pin;
+}
+
 void Input1(int mode, int speed) {
   digitalWrite(attachedInput1, mode);
   if(speed != "") {
-    analogWrite(dc_pin, speed);
+    analogWrite(attachedEngine, speed);
   }
 }
