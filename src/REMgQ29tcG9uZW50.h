@@ -14,6 +14,12 @@ void attachEngine(int pin) {
   attachedEngine = pin;
 }
 
+void attach(int input1, int input2, int engine) {
+  attachInput1(input1);
+  attachInput2(input2);
+  attachEngine(engine);
+}
+
 void Input1(int mode, int speed) {
   digitalWrite(attachedInput1, mode);
   if(speed != "") {
