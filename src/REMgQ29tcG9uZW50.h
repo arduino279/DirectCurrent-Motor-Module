@@ -10,7 +10,7 @@ void attachInput2(int pin) {
 }
 
 void Input1(int mode, int speed) {
-  digitalWrite(Input1, mode);
+  digitalWrite(attachedInput1, mode);
   if(speed != "") {
     analogWrite(engine_id, speed);
   }
