@@ -1,10 +1,9 @@
 cc_library(
     name = "Engine Control",
     srcs = [
-        "src/engine_control.h",
-        "src/engine_control_component.h",
-        "src/servo_component.h",
-        "src/dc_component.h"
+        "src/Engine_Control.h",
+        "src/REMgQ29tcG9uZW50.h",
+        "src/U2Vydm8gQ29tcG9uZW50.h"
     ],
     includes = [
         "src",
