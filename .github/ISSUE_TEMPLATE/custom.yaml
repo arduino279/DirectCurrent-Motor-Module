@@ -8,5 +8,5 @@ body:
       label: Suggestion
       description: Explain what you are suggesting
       placeholder: Suggestion
-      validations:
-        required: true
+    validations:
+      required: true
