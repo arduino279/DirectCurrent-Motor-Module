@@ -1,4 +1,11 @@
-name: "Suggestion"
-description: "Suggest something"
+name: Suggestion
+description: Suggest something
 body:
-  
+  labels: enhancement
+  - type: textarea
+    attributes:
+      label: Title
+      description: Describe your suggestion in one or two words
+      placeholder: Title
+      validations:
+        required: true
