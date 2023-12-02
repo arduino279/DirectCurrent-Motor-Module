@@ -1,9 +1,9 @@
 name: 🐞 Suggestion
 description: Suggest something
 title: "Suggestion 🍭 <title>"
-
+labels: ["enhancement"]
 body:
-  - type: textarea
+  - type: input
     attributes:
     label: Suggestion
     description: Explain what you are suggesting
