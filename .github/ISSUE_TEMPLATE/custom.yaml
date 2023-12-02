@@ -4,6 +4,7 @@ title: 'Suggestion 🍭 '
 labels: enhancement
 body:
 - type: textarea
-  label: Suggestion
   attributes:
-    placeholder: Suggestion
+  label: Suggestion
+  description: Explain what you are suggesting
+  placeholder: Suggestion
