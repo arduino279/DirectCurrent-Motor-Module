@@ -5,8 +5,8 @@ labels: ["enhancement"]
 body:
   - type: input
     attributes:
-    label: Suggestion
-    description: Explain what you are suggesting
-    placeholder: Suggestion
-    validations:
-      required: true
+      label: Suggestion
+      description: Explain what you are suggesting
+      placeholder: Suggestion
+      validations:
+        required: true
