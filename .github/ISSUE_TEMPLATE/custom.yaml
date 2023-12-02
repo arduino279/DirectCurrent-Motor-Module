@@ -1,7 +1,7 @@
 name: 🐞 Suggestion
 description: Suggest something
-title: 'Suggestion 🍭 '
-labels: enhancement
+title: "Suggestion 🍭 "
+labels: ["enhancement"]
 body:
 - type: textarea
   attributes:
