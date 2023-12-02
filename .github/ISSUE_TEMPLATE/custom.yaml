@@ -3,7 +3,7 @@ description: Suggest something
 title: 'Suggestion 🍭 '
 labels: enhancement
 body:
-  - type: textarea
+- type: textarea
   attributes:
   label: Suggestion
   placeholder: Suggestion
