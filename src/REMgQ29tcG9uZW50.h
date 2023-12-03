@@ -1,4 +1,10 @@
 typedef int attach;
+struct{
+    int input1;
+    int input2;
+    int dc;
+} attach;
+
 attach attachedInput1 = 0;
 attach attachedInput2 = 0;
 attach attachedEngine = 0;
