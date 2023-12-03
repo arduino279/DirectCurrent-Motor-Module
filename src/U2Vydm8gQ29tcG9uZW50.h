@@ -6,9 +6,6 @@ struct setup {
 
 Servo servo;
 
-void attachServo(int pin) {
-}
-
 void moveServo(int angle) {
   servo.attach(setup.servo);
   servo.write(angle);
