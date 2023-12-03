@@ -5,7 +5,7 @@ labels: ["bug"]
 body:
   - type: markdown
     value: |
-      # Bug Report
+        # Bug Report
   - type: textarea
     attributes:
       label: Bug
