@@ -1,0 +1,19 @@
+name: 🐠 Improve the docs
+description: What to say here?
+title: "Suggestion 🍭 "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    attributes:
+      label: Improvement
+      description: Improved text part
+      placeholder: Improve the docs
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Source URL
+      description: Provide an URL to the improved wiki article
+      placeholder: Source URL
+    validations:
+      required: true
