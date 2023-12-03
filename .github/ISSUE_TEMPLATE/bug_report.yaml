@@ -5,11 +5,11 @@ labels: ["bug"]
 body:
   - type: markdown
     value: |
-        # Bug Report
+      # Bug Report
   - type: textarea
     attributes:
       label: Bug
-      description: Give me more informations about the bug you found
-      placeholder: Describe the bug you found
+      description: Give us more informations about the bug
+      placeholder: Bug Description
     validations:
       required: true
