@@ -4,8 +4,6 @@ struct setup {
     int dc;
 };
  
-struct setup pin1 = {2, 5, 3.7};
- 
 my_point2.x = 4;
 
 int attachedInput1 = 0;
