@@ -20,7 +20,7 @@ void attach(int input1, int input2, int engine) {
   attachEngine(engine);
 }
 
-void Input1(int mode, int speed) {
+void Input1(int mode, const speed) {
   digitalWrite(attachedInput1, mode);
   if(speed != "") {
     analogWrite(attachedEngine, speed);
