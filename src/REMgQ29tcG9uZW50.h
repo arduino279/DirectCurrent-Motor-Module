@@ -10,10 +10,9 @@ struct point my_point2 = {2, 5, 3.7};
  
 my_point2.x = 4;
 
-
-attach attachedInput1 = 0;
-attach attachedInput2 = 0;
-attach attachedEngine = 0;
+int attachedInput1 = 0;
+int attachedInput2 = 0;
+int attachedEngine = 0;
 
 void attachEngine(int pin) {
   attachedEngine = pin;
