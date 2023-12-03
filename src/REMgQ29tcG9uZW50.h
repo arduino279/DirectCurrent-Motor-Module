@@ -1,12 +1,10 @@
-struct point{
-    int x;
-    int y;
-    float z;
+struct setup {
+    int input1;
+    int input2;
+    int dc;
 };
  
-struct point my_point1;
- 
-struct point my_point2 = {2, 5, 3.7};
+struct setup pin1 = {2, 5, 3.7};
  
 my_point2.x = 4;
 
