@@ -4,9 +4,9 @@ struct setup {
     int dc;
 };
 
-void moveDC(int pin_number, int mode, const speed) {
-  digitalWrite(pin[pin_number].input[input_number], mode);
+void moveDC(int i, int mode1, int mode2, const speed) {
+  digitalWrite(pin[i].input1, mode);
   if(speed != "") {
-    analogWrite(pin[pin_number].dc, speed);
+    analogWrite(pin[i].dc, speed);
   }
 }
