@@ -1,7 +1,7 @@
 name: 🐠 Improve the docs
 description: What to say here?
-title: "Suggestion 🍭 "
-labels: ["enhancement"]
+title: "Documentation 🍭 "
+labels: ["documentation"]
 body:
   - type: textarea
     attributes:
