@@ -3,10 +3,6 @@ description: Suggest something
 title: "Bug 🍭 "
 labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        # Bug Report
   - type: textarea
     attributes:
       label: Bug
