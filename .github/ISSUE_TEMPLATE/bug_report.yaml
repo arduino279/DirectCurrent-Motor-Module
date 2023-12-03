@@ -4,8 +4,9 @@ title: "Bug 🍭 "
 labels: ["bug"]
 body:
   - type: markdown
-    value: |
-      # Bug Report
+    attributes:
+      value: |
+        # Bug Report
   - type: textarea
     attributes:
       label: Bug
