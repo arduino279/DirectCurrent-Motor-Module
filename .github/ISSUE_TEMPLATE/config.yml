@@ -3,3 +3,6 @@ contact_links:
   - name: Wiki
     url: https://github.com/Arduino-Library-Collection/Engine-Control/wiki
     about: Please read the documentation before opening an issue
+  - name: Contributing
+    url:
+    about: How to Contribute
