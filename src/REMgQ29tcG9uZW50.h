@@ -1,9 +1,15 @@
-typedef int attach;
-struct{
-    int input1;
-    int input2;
-    int dc;
-} attach;
+struct point{
+    int x;
+    int y;
+    float z;
+};
+ 
+struct point my_point1;
+ 
+struct point my_point2 = {2, 5, 3.7};
+ 
+my_point2.x = 4;
+
 
 attach attachedInput1 = 0;
 attach attachedInput2 = 0;
