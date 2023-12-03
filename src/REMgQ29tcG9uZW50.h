@@ -1,6 +1,7 @@
-int attachedInput1 = 0;
-int attachedInput2 = 0;
-int attachedEngine = 0;
+typedef int attach;
+attach attachedInput1 = 0;
+attach attachedInput2 = 0;
+attach attachedEngine = 0;
 
 void attachEngine(int pin) {
   attachedEngine = pin;
