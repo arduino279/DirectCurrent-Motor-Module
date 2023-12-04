@@ -8,9 +8,8 @@ class setup2 {
 };
 
 Servo servo;
-setup2 servo;
 
 void moveServo(int i, int angle) {
-  servo.attach(pin[i].servo);
+  servo.attach(setup2.servo);
   servo.write(angle);
 }
