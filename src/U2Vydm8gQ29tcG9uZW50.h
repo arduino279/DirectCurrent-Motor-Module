@@ -1,8 +1,8 @@
 #include <Servo.h>
 
-struct setup2 {
+typedef struct setup2 {
     int servo;
-};
+} ServoConfig;
 
 Servo servo;
 
