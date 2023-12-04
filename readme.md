@@ -17,3 +17,7 @@
 ```
 
 **DirectCurrent Motor Controller**
+
+```ino
+DirectCurrentConfig pin[i] = { int input1, int input2, int dc }
+```
