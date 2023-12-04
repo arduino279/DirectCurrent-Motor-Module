@@ -1,4 +1,4 @@
-struct setup {
+struct setup1 {
     int input1;
     int input2;
     int dc;
