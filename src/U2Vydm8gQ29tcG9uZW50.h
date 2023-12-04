@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct setup2 {
-    int servo;
-} ServoConfig;
+class setup2 {
+    public:
+      int servo;
+};
 
 Servo servo;
-ServoConfig servo;
+setup2 servo;
 
 void moveServo(int i, int angle) {
   servo.attach(pin[i].servo);
