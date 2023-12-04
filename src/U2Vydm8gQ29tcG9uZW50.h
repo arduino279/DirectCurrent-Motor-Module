@@ -1,6 +1,6 @@
 #include <Servo.h>
 
-struct setup {
+struct setup2 {
     int servo;
 };
 
