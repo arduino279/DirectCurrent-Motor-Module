@@ -7,6 +7,9 @@
 
 **Import Engine Control**
 
+1. Look up `Engine Control` in the Library Manager and install the latest version
+2. Insert the following snippet
+ 
 ```ino
 #include <Engine_Control.h>
 #include <REMgQ29tcG9uZW50.h>
