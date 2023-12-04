@@ -3,8 +3,8 @@
 #include <string.h>
 
 class setup2 {
-    public:
-      int servo;
+  public:
+    int servo;
 };
 
 Servo servo;
