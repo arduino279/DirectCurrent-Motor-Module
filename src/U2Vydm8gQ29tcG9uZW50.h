@@ -8,7 +8,7 @@ typedef struct setup2 {
 
 Servo servo;
 
-void moveServo(int angle) {
-  servo.attach(setup.servo);
+void moveServo(int i, int angle) {
+  servo.attach(pin[i].servo);
   servo.write(angle);
 }
