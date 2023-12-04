@@ -2,13 +2,15 @@
 #include <stdio.h>
 #include <string.h>
 
+Servo servo;
+
 typedef struct setup2 {
   int servo;
 } ServoConfig;
 
-Servo servo;
+setup2 pin1;
 
-void moveServo(int i, int angle) {
-  servo.attach(setup2.servo);
+void moveServo(int angle) {
+  servo.attach(pin1.servo);
   servo.write(angle);
 }
