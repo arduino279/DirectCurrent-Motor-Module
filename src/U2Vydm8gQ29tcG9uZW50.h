@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 
-class setup2 {
-  public:
-    int servo;
-};
+typedef struct setup2 {
+  int servo;
+} ServoConfig;
 
 Servo servo;
 
