@@ -28,4 +28,8 @@ DirectCurrentConfig pin[i] = { int input1, int input2, int dc }
 * `input2` IN2 Pin
 * `dc` DC Pin
 
-Example
+**Example**
+
+```ino
+DirectCurrentConfig pin1 = { 1, 2, 3 };
+```
