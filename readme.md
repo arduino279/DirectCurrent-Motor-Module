@@ -21,3 +21,11 @@
 ```ino
 DirectCurrentConfig pin[i] = { int input1, int input2, int dc }
 ```
+**Parameters**
+
+* `[i]` Number of the setup profile
+* `input1` IN1 Pin
+* `input2` IN2 Pin
+* `dc` DC Pin
+
+Example
