@@ -1,7 +1,8 @@
 class DirectCurrent {
-    int input1;
-    int input2;
-    int dc;
+    public:
+      int input1;
+      int input2;
+      int dc;
 };
 
 void moveDirectCurrent(int i, int mode1, int mode2, int speed) {
