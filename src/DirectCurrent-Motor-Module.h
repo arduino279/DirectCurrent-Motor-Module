@@ -1,8 +1,8 @@
-typedef struct setup1 {
+class DirectCurrent {
     int input1;
     int input2;
     int dc;
-} DirectCurrentConfig;
+};
 
 void moveDirectCurrent(int i, int mode1, int mode2, int speed) {
   digitalWrite(pin[i].input1, mode2);
