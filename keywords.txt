@@ -1,7 +1,2 @@
-attachInput1    KEYWORD2
-attachInput2    KEYWORD2
-attachEngine    KEYWORD2
-attach     KEYWORD2
-moveDC     KEYWORD2
-attachServo     KEYWORD2
-moveServo     KEYWORD2
+DC    KEYWORD2
+moveDC    KEYWORD2
