@@ -7,19 +7,17 @@
 
 **Import DirectCurrent Motor Module**
 
-1. Look up `DirectCurrent_Motor_Module` in the Library Manager and install the latest version
+1. Look up `DirectCurrent-Motor-Module` in the Library Manager and install the latest version
 2. Insert the following snippet
  
 ```ino
-#include <Engine_Control.h>
-#include <REMgQ29tcG9uZW50.h>
-#include <U2Vydm8gQ29tcG9uZW50.h>
+#include <DirectCurrent-Motor-Module.h>
 ```
 
 **Setup DirectCurrent Motor Module**
 
 ```ino
-DirectCurrentConfig pin[i] = { int input1, int input2, int dc }
+DirectCurrent pin[i] = { int input1, int input2, int dc };
 ```
 **Parameters**
 
@@ -31,5 +29,5 @@ DirectCurrentConfig pin[i] = { int input1, int input2, int dc }
 **Example**
 
 ```ino
-DirectCurrentConfig pin1 = { 1, 2, 3 };
+DirectCurrent pin1 = { 1, 2, 3 };
 ```
