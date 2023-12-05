@@ -20,8 +20,3 @@ jobs:
     - uses: actions/labeler@v4
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-   
-    Source:
-    - all:
-      - changed-files:
-        any-glob-to-any-file: 'src/'
