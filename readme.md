@@ -31,3 +31,9 @@ DirectCurrent pin[i] = { int input1, int input2, int dc };
 ```ino
 DirectCurrent pin1 = { 1, 2, 3 };
 ```
+
+**Using DirectCurrent Motor Module**
+
+```ino
+moveDirectCurrent(int i, int speed);
+```
