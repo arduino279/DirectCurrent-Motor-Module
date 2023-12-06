@@ -34,13 +34,12 @@ DirectCurrent example = { 1, 2, 3 };
 **Use**
 
 ```ino
-moveDirectCurrent(DirectCurrent i, int mode1, int mode2, int speed);
+moveDirectCurrent(int mode1, int mode2, int speed);
 ```
 
 **Description** Move the DC motor
 
 **Parameters**
-* `i` Name defined in the setup
 * `mode1` Enable or disable the `input1` pin with `0` (disable) and `1` (enable)
 * `mode2` Enable or disable the `input2` pin with `0` (disable) and `1` (enable)
 * `speed` Motor speed `Max. Value` 255
@@ -48,5 +47,5 @@ moveDirectCurrent(DirectCurrent i, int mode1, int mode2, int speed);
 **Example**
 
 ```ino
-moveDirectCurrent(example, 1, 0, 202);
+moveDirectCurrent(1, 0, 202);
 ```
