@@ -16,11 +16,11 @@
 **Setup**
 
 ```ino
-DirectCurrent pin[i] = { int input1, int input2, int dc };
+DirectCurrent [name] = { int input1, int input2, int dc };
 ```
 **Parameters**
 
-* `[i]` Number of the setup profile
+* `[name]` Use a name without spaces
 * `input1` IN1 Pin
 * `input2` IN2 Pin
 * `dc` DC Pin
@@ -28,23 +28,23 @@ DirectCurrent pin[i] = { int input1, int input2, int dc };
 **Example**
 
 ```ino
-DirectCurrent pin1 = { 1, 2, 3 };
+DirectCurrent example = { 1, 2, 3 };
 ```
 
 **Use**
 
 ```ino
-moveDirectCurrent(int i, int speed);
+moveDirectCurrent(DirectCurrent i, int mode1, int mode2, int speed);
 ```
 
 **Description** Move the DC motor
 
 **Parameters**
-* `i` Number of the setup profile
+* `i` Name defined in the setup
 * `speed` Motor speed `Max. Value` 255
 
 **Example**
 
 ```ino
-moveDirectCurrent(1, 202);
+moveDirectCurrent(example, 1, 202);
 ```
