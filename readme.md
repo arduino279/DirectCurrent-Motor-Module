@@ -36,3 +36,15 @@ DirectCurrent pin1 = { 1, 2, 3 };
 ```ino
 moveDirectCurrent(int i, int speed);
 ```
+
+**Description** Move the DC motor
+
+**Parameters**
+* `i` Number of the setup profile
+* `speed` Motor speed `Max. Value` 255
+
+**Example**
+
+```ino
+moveDirectCurrent(1, 202);
+```
