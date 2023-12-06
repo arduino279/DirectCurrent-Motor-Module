@@ -41,6 +41,8 @@ moveDirectCurrent(DirectCurrent i, int mode1, int mode2, int speed);
 
 **Parameters**
 * `i` Name defined in the setup
+* `mode1` Enable or disable the `input1` pin with `0` (disable) and `1` (enable)
+* `mode2` Enable or disable the `input2` pin with `0` (disable) and `1` (enable)
 * `speed` Motor speed `Max. Value` 255
 
 **Example**
