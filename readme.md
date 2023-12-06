@@ -4,7 +4,7 @@
 
 ## Get Started
 
-**Import DirectCurrent Motor Module**
+**Import**
 
 1. Look up `DirectCurrent-Motor-Module` in the Library Manager and install the latest version
 2. Insert the following snippet
@@ -13,7 +13,7 @@
 #include <DirectCurrent-Motor-Module.h>
 ```
 
-**Setup DirectCurrent Motor Module**
+**Setup**
 
 ```ino
 DirectCurrent pin[i] = { int input1, int input2, int dc };
@@ -31,7 +31,7 @@ DirectCurrent pin[i] = { int input1, int input2, int dc };
 DirectCurrent pin1 = { 1, 2, 3 };
 ```
 
-**Using DirectCurrent Motor Module**
+**Use**
 
 ```ino
 moveDirectCurrent(int i, int speed);
