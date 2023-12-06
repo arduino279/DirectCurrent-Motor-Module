@@ -48,5 +48,5 @@ moveDirectCurrent(DirectCurrent i, int mode1, int mode2, int speed);
 **Example**
 
 ```ino
-moveDirectCurrent(example, 1, 202);
+moveDirectCurrent(example, 1, 0, 202);
 ```
