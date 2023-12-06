@@ -1,2 +1,2 @@
-DC    KEYWORD2
-moveDC    KEYWORD2
+DirectCurrent    KEYWORD1
+move    KEYWORD2
