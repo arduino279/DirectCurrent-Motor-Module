@@ -6,7 +6,7 @@
 
 **Import**
 
-1. Look up `DirectCurrent-Motor-Module` in the Library Manager and install the latest version
+1. Look up `DirectCurrent_Motor_Module` in the Library Manager and install the latest version
 2. Insert the following snippet
  
 ```ino
