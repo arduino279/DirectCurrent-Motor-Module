@@ -1,9 +1,10 @@
-struct DirectCurrent {
+class DirectCurrent {
+  public:
       int input1;
       int input2;
       int dc;
       move(int mode1, int mode2, int speed);
-} DirectCurrent;
+};
 
 void DirectCurrent::move(int mode1, int mode2, int speed) {
     digitalWrite(this.input1, mode2);
