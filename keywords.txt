@@ -1,4 +1,4 @@
-# Syntax Coloring Map For SerialMonitor
+# Syntax Coloring Map For DirectCurrent_Motor_Module
 
 # Datatypes (KEYWORD1)
 DirectCurrent    KEYWORD1
