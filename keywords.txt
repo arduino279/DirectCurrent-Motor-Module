@@ -1,2 +1,11 @@
+# Syntax Coloring Map For SerialMonitor
+
+# Datatypes (KEYWORD1)
 DirectCurrent    KEYWORD1
+
+# Methods and Functions (KEYWORD2)
 move    KEYWORD2
+
+# Instances (KEYWORD2)
+
+# Constants (LITERAL1)
