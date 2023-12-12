@@ -4,20 +4,22 @@
 
 ## Get Started
 
-**Import**
+### Import
 
 1. Look up `DirectCurrent_Motor_Module` in the Library Manager and install the latest version
 2. Insert the following snippet
- 
+
 ```ino
 #include <DirectCurrent-Motor-Module.h>
 ```
 
-**Setup**
+### Setup
 
 ```ino
 DirectCurrent [name] = { int input1, int input2, int dc };
 ```
+**Description** *No Description available*
+
 **Parameters**
 
 * `[name]` Use a name without spaces
@@ -26,17 +28,14 @@ DirectCurrent [name] = { int input1, int input2, int dc };
 * `dc` DC Pin
 
 **Example**
-
 ```ino
 DirectCurrent example = { 1, 2, 3 };
 ```
-
-**Use**
+### Use
 
 ```ino
-moveDirectCurrent(int mode1, int mode2, int speed);
+[name].move(int mode1, int mode2, int speed);
 ```
-
 **Description** Move the DC motor
 
 **Parameters**
@@ -44,8 +43,10 @@ moveDirectCurrent(int mode1, int mode2, int speed);
 * `mode2` Enable or disable the `input2` pin with `0` (disable) and `1` (enable)
 * `speed` Motor speed `Max. Value` 255
 
-**Example**
+**Returns**
+* Boolean
 
+**Example**
 ```ino
 moveDirectCurrent(1, 0, 202);
 ```
