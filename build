@@ -1,9 +1,7 @@
 cc_library(
-    name = "Engine Control",
+    name = "DirectCurrent_Motor_Module",
     srcs = [
-        "src/Engine_Control.h",
-        "src/REMgQ29tcG9uZW50.h",
-        "src/U2Vydm8gQ29tcG9uZW50.h"
+        "src/DirectCurrent_Motor_Module.h"
     ],
     includes = [
         "src",
