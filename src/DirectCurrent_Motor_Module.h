@@ -3,7 +3,7 @@ class DirectCurrent {
       int input1;
       int input2;
       int dc;
-      move(int mode1, int mode2, int speed);
+      int move(int mode1, int mode2, int speed);
 };
 
 int DirectCurrent::move(int mode1, int mode2, int speed) {
