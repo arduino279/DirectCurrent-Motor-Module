@@ -1,32 +1,32 @@
-> [!NOTE]
-> Import
-> ```h
-> #include <DirectCurrent-Motor-Module.h>
-> ```
+### Import
 
-> [!NOTE]
-> First steps
-> ```ino
-> class DirectCurrent = { int input1, int input2, int dc };
-> ```
+```ino
+#include <DirectCurrent-Motor-Module.h>
+```
 
-`input1 -> int` Input Pin 1
+### First steps
 
-`input2 -> int`  Input Pin 2
+```ino
+class DirectCurrent = { int input1, int input2, int dc };
+```
 
-`dc -> int` DirectCurrent Pin
+| Parameter | Definition |
+| --- | --- |
+| `input1` | Input Pin 1 |
+| `input2` | Input Pin 2 |
+| `dc` | DirectCurrent Pin |
 
-> `func` move
+### move
 
 ```ino
 bool DirectCurrent::move(int mode1, int mode2, int speed);
 ```
 
-`mode1 -> int` Enable or Disable Input Pin 1
-
-`mode2 -> int` Enable or Disable Input Pin 2
-
-`speed -> int` DirectCurrent speed `Maximum Value | 255`
+| Parameter | Definition |
+| --- | --- |
+| `mode1` | Enable or Disable Input Pin 1 |
+| `mode2` | Enable or Disable Input Pin 2 |
+| `speed` | DirectCurrent speed `Maximum Value | 255`
 
 Returns
 Boolean
