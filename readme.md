@@ -1,8 +1,6 @@
-# DirectCurrent Motor Module
-
-[![](https://img.shields.io/badge/Available_in_the_Arduino_Library_Manager-2ea44f)](https://www.arduino.cc/reference/en/libraries/engine-control/)
-
-## Get Started
+```h
+DirectCurrent Motor Module
+```
 
 ### Import
 
