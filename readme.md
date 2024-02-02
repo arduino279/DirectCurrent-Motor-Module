@@ -35,7 +35,8 @@ DirectCurrent example = { 1, 2, 3 };
 ```
 **Description** Move the DC motor
 
-**Parameters**
+![Parameters](https://github.com/arduino279/DirectCurrent-Motor-Module/assets/76214766/b92c13cf-835a-4191-a61c-743cc2a3e346)
+
 * `mode1` Enable or disable the `input1` pin with `0` (disable) and `1` (enable)
 * `mode2` Enable or disable the `input2` pin with `0` (disable) and `1` (enable)
 * `speed` Motor speed `Max. Value` 255
