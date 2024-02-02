@@ -16,13 +16,10 @@
 ### Setup
 
 ```ino
-DirectCurrent [name] = { int input1, int input2, int dc };
+class DirectCurrent = { int input1, int input2, int dc };
 ```
-**Description** *No Description available*
-
 **Parameters**
 
-* `[name]` Use a name without spaces
 * `input1` IN1 Pin
 * `input2` IN2 Pin
 * `dc` DC Pin
