@@ -1,39 +1,32 @@
-```h
-DirectCurrent Motor Module
-```
+> [!NOTE]
+> Import
+> ```h
+> #include <DirectCurrent-Motor-Module.h>
+> ```
 
-### Import
+> [!NOTE]
+> First steps
+> ```ino
+> class DirectCurrent = { int input1, int input2, int dc };
+> ```
 
-1. Look up `DirectCurrent_Motor_Module` in the Library Manager and install the latest version
-2. Insert the following snippet
+`input1 -> int` Input Pin 1
 
-```ino
-#include <DirectCurrent-Motor-Module.h>
-```
+`input2 -> int`  Input Pin 2
 
-`Setup`
+`dc -> int` DirectCurrent Pin
 
-```ino
-class DirectCurrent = { int input1, int input2, int dc };
-```
-
-**`input1 -> int`** Input Pin 1
-
-**`input2 -> int`** Input Pin 2
-
-**`dc     -> int`** DirectCurrent Pin
-
-### Move
+> `func` move
 
 ```ino
 bool DirectCurrent::move(int mode1, int mode2, int speed);
 ```
 
-**`mode1 -> int`** Enable or Disable Input Pin 1
+`mode1 -> int` Enable or Disable Input Pin 1
 
-**`mode2 -> int`** Enable or Disable Input Pin 2
+`mode2 -> int` Enable or Disable Input Pin 2
 
-**`speed -> int`** DirectCurrent speed `Maximum Value | 255`
+`speed -> int` DirectCurrent speed `Maximum Value | 255`
 
-#### Returns
+Returns
 Boolean
