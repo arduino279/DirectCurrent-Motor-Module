@@ -11,7 +11,7 @@ DirectCurrent Motor Module
 #include <DirectCurrent-Motor-Module.h>
 ```
 
-### Setup
+`Setup`
 
 ```ino
 class DirectCurrent = { int input1, int input2, int dc };
