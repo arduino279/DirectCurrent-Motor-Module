@@ -18,32 +18,24 @@
 ```ino
 class DirectCurrent = { int input1, int input2, int dc };
 ```
-**Parameters**
 
-* `input1` IN1 Pin
-* `input2` IN2 Pin
-* `dc` DC Pin
+**`input1 -> int`** Input Pin 1
 
-**Example**
-```ino
-DirectCurrent example = { 1, 2, 3 };
-```
-### Use
+**`input2 -> int`** Input Pin 2
+
+**`dc     -> int`** DirectCurrent Pin
+
+### Move
 
 ```ino
-[name].move(int mode1, int mode2, int speed);
+bool DirectCurrent::move(int mode1, int mode2, int speed);
 ```
-**Description** Move the DC motor
 
-**Parameters**
-* `mode1` Enable or disable the `input1` pin with `0` (disable) and `1` (enable)
-* `mode2` Enable or disable the `input2` pin with `0` (disable) and `1` (enable)
-* `speed` Motor speed `Max. Value` 255
+**`mode1 -> int`** Enable or Disable Input Pin 1
 
-**Returns**
-* Boolean
+**`mode2 -> int`** Enable or Disable Input Pin 2
 
-**Example**
-```ino
-moveDirectCurrent(1, 0, 202);
-```
+**`speed -> int`** DirectCurrent speed `Maximum Value | 255`
+
+#### Returns
+Boolean
