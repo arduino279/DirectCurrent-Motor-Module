@@ -36,8 +36,8 @@ DirectCurrent example = { 1, 2, 3 };
 **Description** Move the DC motor
 
 **Parameters**
-* `mode1` Enable or disable the `input1` pin with `0` (disable) and `1` (enable)
-* `mode2` Enable or disable the `input2` pin with `0` (disable) and `1` (enable)
+* `mode1` Enable or disable the `input1` pin with `0` and `1`
+* `mode2` Enable or disable the `input2` pin with `0` and `1`
 * `speed` Motor speed `Max. Value` 255
 
 **Returns**
